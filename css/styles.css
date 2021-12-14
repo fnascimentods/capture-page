@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header {
+    background-color: #48c5ce;
+    text-align: center;
+    padding: 10px;
+}
+
+.header h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.section {
+    padding: 20px;
+    background-image: url("../images/people.jpg");
+    background-size: cover;    
+    overflow: hidden;
+}
+
+.section h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.formContainer {
+    max-width: 230px;
+    display: inline-block;
+    float: right;    
+    background-color: #FFFFFFBB;
+    color: black;
+    padding: 20px;    
+    border-radius: 0.6rem;
+}
+
+.mb {
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 0.6rem;
+}
+
+input:focus, select:focus {
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #48c5ce;
+    color: white;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.7;
+    background-color: #52c5ce;
+    transition: 0.2s;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url("../images/arrow.jpg");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px), center;
+
+}
+
+.footer {
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.description {
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.description h3, .description p {
+    margin-bottom: 20px;
+}
+
+.description h3 {
+    font-size: 24px;
+}
